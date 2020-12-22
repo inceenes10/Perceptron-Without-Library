@@ -5,7 +5,7 @@ import numpy as np
 # We predict whether the person is diabet or not in the future
 
 feature_set = np.array([[0, 1, 0], [0, 0, 1], [1, 0, 0], [1, 1, 0], [1, 1, 1]]) # 5 x 3
-labels = np.array([[1, 0, 0, 1, 1]]).reshape(5, 1) # 1 x 5
+labels = np.array([[1, 0, 0, 1, 1]]).reshape(5, 1) # 5 x 1
 
 
 weights = np.random.randn(3, 1) # weights
